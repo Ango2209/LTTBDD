@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+
+<body>
+    <script>
+        let bill1 = 275;
+        let bill2 = 40;
+        let bill3 = 430;
+
+        let tip1 = bill1 >= 50 && bill1 <= 300 ? bill1 * 0.15 : bill1 * 0.2;
+        let tip2 = bill2 >= 50 && bill2 <= 300 ? bill2 * 0.15 : bill2 * 0.2;
+        let tip3 = bill3 >= 50 && bill3 <= 300 ? bill3 * 0.15 : bill3 * 0.2;
+
+        let total1 = bill1 + tip1;
+        let total2 = bill2 + tip2;
+        let total3 = bill3 + tip3;
+
+        console.log(`The bill was ${bill1}, the tip was ${tip1}, and the total value ${total1}`);
+        console.log(`The bill was ${bill2}, the tip was ${tip2}, and the total value ${total2}`);
+        console.log(`The bill was ${bill3}, the tip was ${tip3}, and the total value ${total3}`);
+    </script>
+</body>
+
+</html>
